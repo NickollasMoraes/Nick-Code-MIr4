@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{background-color: black;}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding:10px;
+    border-bottom: 2px solid  rgb(144, 225, 23);
+}
+header h1{
+    color: rgb(144, 225, 23);
+}
+header a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(144, 225, 23);
+    text-align: center;
+    align-items: center;
+}
+.spots-menu{
+    background-color: black;
+    color: rgb(144, 225, 23);
+    
+}
+.oleo_flor{
+    width: 100%;
+    display: flex;
+}
+.oleo_flor-text{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.oleo_flor_incomun{
+    padding:20px 0;
+    width: 20%;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    border-right:1px solid rgb(144, 225, 23);
+    color: grey;
+    }
+    .oleo_flor_comun{
+        padding:20px 0;
+width: 20%;
+display: block;
+align-items: center;
+justify-items: center;
+text-align: center;
+border-right:1px solid rgb(144, 225, 23);
+color: green;
+}
+.oleo_flor_raro{
+    padding:20px 0;
+    width: 20%;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    border-right:1px solid rgb(144, 225, 23);
+    color: blue;
+    }
+    .oleo_flor_epico{
+        padding:20px 0;
+        width: 20%;
+        display: block;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        border-right:1px solid rgb(144, 225, 23);
+        color: red;
+        }
+        .oleo_flor_lendario{
+            padding:20px 0;
+            width: 20%;
+            display: block;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+            color: gold;
+            }
+.oleo_flor h2{
+margin-bottom: 20px;
+}
+.oleo_flor_raro_spot_h1{
+    color: rgb(144, 225, 23);
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 12px;
+}
+.oleo_flor_raro_spot{
+    color: rgb(144, 225, 23);
+    text-align: center;
+}
+.video_oleo_raro{
+width: 50%;
+}
+    
+    
+.oleo_flor_raro_spot-p{
+display: inline-block;
+text-align: left;
+align-items:flex;
+width: 50%;
+}
